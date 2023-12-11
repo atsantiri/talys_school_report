@@ -1,0 +1,50 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Burbidge et~al.(1957)Burbidge, Burbidge, Fowler, and Hoyle]{b2fh}
+E.~Margaret Burbidge, G.~R. Burbidge, William~A. Fowler, and F.~Hoyle.
+\newblock Synthesis of the elements in stars.
+\newblock \emph{Rev. Mod. Phys.}, 29:\penalty0 547--650, Oct 1957.
+\newblock \doi{10.1103/RevModPhys.29.547}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.29.547}.
+
+\bibitem[{Iliadis}(2007)]{iliadis}
+Christian {Iliadis}.
+\newblock \emph{{Nuclear Physics of Stars}}.
+\newblock 2007.
+
+\bibitem[K\"appeler et~al.(2011)K\"appeler, Gallino, Bisterzo, and
+  Aoki]{s-review}
+F.~K\"appeler, R.~Gallino, S.~Bisterzo, and Wako Aoki.
+\newblock The $s$ process: Nuclear physics, stellar models, and observations.
+\newblock \emph{Rev. Mod. Phys.}, 83:\penalty0 157--193, Apr 2011.
+\newblock \doi{10.1103/RevModPhys.83.157}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.83.157}.
+
+\bibitem[Cowan et~al.(2021)Cowan, Sneden, Lawler, Aprahamian, Wiescher,
+  Langanke, Mart\'{\i}nez-Pinedo, and Thielemann]{r-review}
+John~J. Cowan, Christopher Sneden, James~E. Lawler, Ani Aprahamian, Michael
+  Wiescher, Karlheinz Langanke, Gabriel Mart\'{\i}nez-Pinedo, and
+  Friedrich-Karl Thielemann.
+\newblock Origin of the heaviest elements: The rapid neutron-capture process.
+\newblock \emph{Rev. Mod. Phys.}, 93:\penalty0 015002, Feb 2021.
+\newblock \doi{10.1103/RevModPhys.93.015002}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.93.015002}.
+
+\bibitem[Larsen et~al.(2019)Larsen, Spyrou, Liddick, and
+  Guttormsen]{larsen_spyrou_review}
+A.C. Larsen, A.~Spyrou, S.N. Liddick, and M.~Guttormsen.
+\newblock Novel techniques for constraining neutron-capture rates relevant for
+  r-process heavy-element nucleosynthesis.
+\newblock \emph{Progress in Particle and Nuclear Physics}, 107:\penalty0
+  69--108, 2019.
+\newblock ISSN 0146-6410.
+\newblock \doi{https://doi.org/10.1016/j.ppnp.2019.04.002}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0146641019300298}.
+
+\end{thebibliography}

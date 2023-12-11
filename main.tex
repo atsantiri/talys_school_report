@@ -5,33 +5,45 @@
 \usepackage{graphicx}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{indentfirst}
-\usepackage{mdwlist}
-\usepackage{multicol}
 \usepackage{enumitem}
 \usepackage[utf8]{inputenc}
 \usepackage{xcolor}
-\usepackage{ dsfont }
 \usepackage{caption}
-\setlength{\parindent}{0em}
-\usepackage{subcaption}
-\usepackage{abstract}
-%\usepackage{authblk}
-
+\usepackage{natbib}
+\setcitestyle{numbers,square,comma}
+\bibliographystyle{unsrtnat}
 \newcommand{\nuc}[2]{$^{#1#2}$}
 \newcommand{\g}{$\gamma$}
 \newcommand{\alp}{$\alpha$}
 
-\title{Talys School Report}
+\title{INPART Talys School Report}
 \author{Artemis Tsantiri}
-\date{November 2023}
+\date{December 2023}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
-\section{Project}
+\section*{Introduction}
+
+One of the main questions in nuclear astrophysics is understanding the mechanisms that create the elements heavier than iron. The majority of the elements are created through the slow \textit{s} and rapid \textit{r} neutron capture processes. Both these processes include a series of neutron capture reactions followed by beta minus decays. The distinction between the two depends on the neutron density of the stellar environment and the timescales for the neutron capture reactions and beta decays. \cite{b2fh}
+\par The s process occurs in environments of relatively low neutron density ($\sim10 ^{7-11}$ cm$^{-3}$) where the nuclei can only undergo limited amount of neutron captures and immediately decay back to stability. Through this process the elements along the valley of stability are made. The site for such conditions to exist is thought to be the core helium burning massive stars, as well as lower mass AGB stars. Depending on the temperature and neutron density conditions this process can last from one up to millions of years. \cite{iliadis, s-review}
+\par On the other hand the r process occurs in much higher neutron densities ( at least $\sim10 ^{22}$) where the nuclei capture a series of neutrons before having enough time to decay, therefore forming the more neutron rich elements until the neutron drip line. In terms of sites, even though many have been proposed over the years, so far only one astrophysical site has been confirmed, the neutron star - neutron star merger GW170817. In such an extreme stellar event the process lasts for merely a second, forming almost half the heavy elements in our universe.
+\cite{r-review, larsen_spyrou_review}
+\par In order to describe the abundances encountered in the solar system and in other stars, vast networks of nuclear reactions on thousands of nuclei are simulated under aproppriate astrophysical conditions. Such network calculations require input on both the astrophysical characteristics of the simulated environment, as well as input on the nuclear physics for the reactions taking place. The nuclear input consists, but is not limited to reaction rates, masses, decay half-lives, stellar enhancement factors and fission yields. These vast networks include reactions on a plethora of radioactive nuclei, for which limited experimental data exist. Therefore the input of such calculations relies heavily on the Hauser-Feshbach (HF) statistical model that carries large uncertainties the further away from stability. One of the main uncertainties is about the (n,\g) reaction rates on radiative nuclei. However, experimentally measuring these (n,\g) reactions is very challenging, since the isotopes of interest often have very short half-lives for a target to be made, and neutron targets are not yet available. 
+\par To overcome this challenge many indirect techniques have been developed to constrain the reaction rates by directly measuring ingredients of the HF theory and therefore constraining those theoretical calculations. The technique this report focuses on is the Oslo method for the measurement of the nuclear level density (NLD) and \g\, strength function (\g SF). 
+
+\subsection*{Ingredients of the Hauser-Feshbach statistical model: NLD and \g SF}
+The reactions rates required for network calculations are deduced from cross-section calculations based on the Hauser-Feshbach theory. The HF formalism, assumes the compound nucleus is populated by 
+
+
+\section*{Project}
+
 The isotope of interest for this project is \nuc87Kr measured by V. Ingeberg et al%\cite{vetle}
 \par For the description of the \g SF, in lack of parameterization of the
+
+
+
+\bibliography{mybib}
 
 \end{document}
